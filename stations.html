@@ -1,0 +1,713 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stations</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="styling.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+
+<!--NAV-->
+<nav class="bg">
+	<a href="index.html">Home</a>
+	<a href="fares.html">Fares</a>
+	<a href="routes.html">Lines and Routes</a>
+	<a href="projects.html">Projects</a>
+    <a href="stations.html">Station Listing</a>
+	<a href="fleet.html">Fleet</a>
+</nav>
+ 	
+<!--Bootstrap Carousel-->
+<div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+	<li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+	<li data-target="#carouselExampleIndicators1" data-slide-to="5"></li>
+  </ol>
+	
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active"> <img class="d-block mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/6/64/MBTA_3849_at_Union_Square_station%2C_March_2022.jpg" alt="First slide">
+      <div class="carousel-caption">
+        <h5>Union Square, a typical GLX station</h5>
+        <p>Green Line D</p>
+      </div>
+    </div>
+	  
+    <div class="carousel-item"> <img class="d-block mx-auto" src="https://images.cf.nycsubway.org/images/icon/title_world_us_boston_orange.jpg" alt="Second slide">
+      <div class="carousel-caption">
+        <h5>A typical station on the Southwest Corridor</h5>
+        <p>Orange Line</p>
+      </div>
+    </div>
+	  
+    <div class="carousel-item"> <img class="d-block mx-auto" src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Northbound_Red_Line_train_at_Park_Street_station%2C_September_2007.jpg" alt="Third slide">
+      <div class="carousel-caption">
+        <h5>Park Street, a rare example where doors will open on both sides on the train</h5>
+        <p>Red and Green Lines</p>
+      </div>
+    </div>
+	  
+	 <div class="carousel-item"> <img class="d-block mx-auto" src="https://subwaynut.com/mbta/orange_line/north_station/north_station6.jpg" alt="Fourth slide">
+      <div class="carousel-caption">
+        <h5>North Station (Subway Station) is configured to have a cross-platform transfer between Southbound Orange and Green Line trains. Passengers switching from the Green Line can walk to the left to the Orange Line on the same platform and vice versa</h5>
+        <p>Orange and Green Lines</p>
+      </div>
+    </div>
+	  
+	 <div class="carousel-item"> <img class="d-block mx-auto" src="https://www.hdrinc.com/sites/default/files/styles/carousel_image/public/2017-06/MBTA_GovtCenterStation_037_LowRes.jpg?itok=1h_sKy2V" alt="Fifth slide">
+      <div class="carousel-caption">
+        <h5>The Green Line platform at Government Center is shaped like a triangle. Northbound trains use the "bottom" of the triangle, and Southbound trains use the "Left" side of the triangle. The "Right" side of the triangle-shaped platform is a former loop track for Southbound trains to reverse and head back north. It is only used during rare service changes and for storage. The Blue Line used to terminate here during some hours of the day and during weekends when Bowdoin was only open during certain times of a weekday</h5>
+        <p>Green and Blue Lines</p>
+      </div>
+    </div>
+	  
+	 <div class="carousel-item"> <img class="d-block mx-auto" src="https://bdc2020.o0bc.com/wp-content/uploads/2021/10/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_ryanmbta9met-1-6172ed9db3bd4-scaled.jpg" alt="Sixth slide">
+      <div class="carousel-caption">
+        <h5>The Green Line platforms at Park Street are very interesting. Southbound trains share a platform and two tracks. Southbound B and C trains board on the left track, whereas D and E trains board on the right track. When trains arrive heading Northbound, they stop on a track with platforms on both sides. To the left of the Northbound track is a rarely used terminating track. If for some reason a D or E train uses the Park Street terminating track, they will be forced to board on the left track when heading back south</h5>
+        <p>Red and Green Lines</p>
+      </div>
+    </div>
+  </div>
+	
+  <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+<!---->
+
+	
+	
+	
+	
+
+<!--Heavy Rail AKA Red, Orange and Blue Lines-->
+<h1 class="silverline">Heavy Rail</h1>
+    
+<div class="redline">
+	<h2>Alewife</h2>
+	<p>MBTA Red Line, Bus</p>
+	<img src="" width="50%">
+</div>
+    
+<div class="redline">
+	<h2>Davis Square</h2>
+	<p>MBTA Red Line, Bus</p>
+	<img src="" width="50%">
+</div>
+    
+<div class="redline">
+	<h2>Porter Square</h2>
+	<p>MBTA Red Line, Commuter Rail, Bus</p>
+	<img src="" width="50%">
+</div>
+
+<div class="redline">
+	<h2>Harvard Square</h2>
+	<p>MBTA Red Line, Bus</p>
+	<img src="" width="50%">
+</div>
+    
+<div class="redline">
+	<h2>Central Square</h2>
+	<p>MBTA Red Line, Bus</p>
+	<img src="" width="50%">
+</div>
+    
+<div class="redline">
+	<h2>Kendall/MIT</h2>
+	<p>MBTA Red Line, Bus</p>
+	<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Charles/MGH</h2>
+<p>MBTA Red Line</p>
+<img src="" width="50%">
+</div>
+
+<div class="redline">
+<h2>Broadway</h2>
+<p>MBTA Red Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2><Andrew></Andrew></h2>
+<p>MBTA Red Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>JFK/Umass</h2>
+<p>MBTA Red Line, Commuter Rail, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Savin Hill</h2>
+<p>MBTA Red Line A</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Fields Corner</h2>
+<p>MBTA Red Line A, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Shawmut</h2>
+<p>MBTA Red Line A</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>North Quincy</h2>
+<p>MBTA Red Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Wollaston</h2>
+<p>MBTA Red Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Quincy Center</h2>
+<p>MBTA Red Line B, Commuter Rail, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Quincy Adams</h2>
+<p>MBTA Red Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Braintree</h2>
+<p>MBTA Red Line B, Commuter Rail, CapeFlyer (seasonal), Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Oak Grove</h2>
+<p>MBTA Orange Line, Commuter Rail, Bus</p>
+<img src="" width="50%">
+</div>
+
+<div class="orangeline">
+<h2>Malden Center</h2>
+<p>MBTA Orange Line, Commuter Rail, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Wellington</h2>
+<p>MBTA Orange Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Assembley</h2>
+<p>MBTA Orange Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Sullivan Square</h2>
+<p>MBTA Orange Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Community College</h2>
+<p>MBTA Orange Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Back Bay</h2>
+<p>MBTA Orange Line, Commuter Rail, Amtrak, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Massachusetts Avenue</h2>
+<p>MBTA Orange Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Ruggles</h2>
+<p>MBTA Orange Line, Commuter Rail, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Roxbury Crossing</h2>
+<p>MBTA Orange Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Jackson Square</h2>
+<p>MBTA Orange Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Stony Brook</h2>
+<p>MBTA Orange Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Green Street</h2>
+<p>MBTA Orange Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<h2>Forest Hills</h2>
+<p>MBTA Orange Line, Commuter Rail, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Bowdoin</h2>
+<p>MBTA Blue Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Aquarium</h2>
+<p>MBTA Blue Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Maverick</h2>
+<p>MBTA Blue Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Wood Island</h2>
+<p>MBTA Blue Line, Bus</p>
+<img src="" width="50%">
+</div>
+
+<div class="blueline">
+<h2>Orient Heights</h2>
+<p>MBTA Blue Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Suffolk Down</h2>
+<p>MBTA Blue Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Beachmont</h2>
+<p>MBTA Blue Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Revere Beach</h2>
+<p>MBTA Blue Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="blueline">
+<h2>Wonderland</h2>
+<p>MBTA Blue Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<!--Light Rail AKA Green and Mattapan Lines-->
+<h1 class="silverline">Light Rail</h1>
+    
+<div class="greenline">
+<h2>Medford/Tufts</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Ball Square</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Magoun Square</h2>
+<p>MBTA Green Line E</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Gilman Square</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>East Somerville</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Union Square</h2>
+<p>MBTA Green Line D, Bus</p>
+<img src="" width="50%">
+</div>
+
+<div class="greenline">
+<h2>Lechmere</h2>
+<p>MBTA Green Line D/E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Science Park/West End</h2>
+<p>MBTA Green Line D/E</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Arlington</h2>
+<p>MBTA Green Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Copley</h2>
+<p>MBTA Green Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Prudential</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Symphony</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Northeastern University</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Museum of Fine Arts</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Longwood Medical Area</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Brigham Circle</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div> 
+    
+<div class="greenline">
+<h2>Fenwood Road</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Mission Park</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Riverway</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>   
+    
+<div class="greenline">
+<h2>Back of the Hill</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Heath Street</h2>
+<p>MBTA Green Line E, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Hynes Convention Cener</h2>
+<p>MBTA Green Line B/C/D, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Kenmore</h2>
+<p>MBTA Green Line B/C/D, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Blanford Street</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Boston University East</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Boston University Central</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Amory Street</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Babcock Street</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Packards Corner</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Harvard Avenue</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Griggs Street</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Allston Street</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Warren Street</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Griggs Street</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Washington Street</h2>
+<p>MBTA Green Line B, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Sutherland Road</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Chiswick Road</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Chestnut Hill Avenue</h2>
+<p>MBTA Green Line B, Bus</p>
+<p>MBTA Green Line C at Cleveland Circle</p>
+<p>MBTA Green Line D at Reservoir</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>South Street</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="greenline">
+<h2>Boston College</h2>
+<p>MBTA Green Line B</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Cedar Grove</h2>
+<p>Mattapan Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Butler</h2>
+<p>Mattapan Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Milton</h2>
+<p>Mattapan Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Central Avenue</h2>
+<p>Mattapan Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Valley Road</h2>
+<p>Mattapan Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Capen Street</h2>
+<p>Mattapan Line</p>
+<img src="" width="50%">
+</div>
+    
+<div class="redline">
+<h2>Mattapan</h2>
+<p>Mattapan Line</p>
+<img src="" width="50%">
+</div>
+   
+<!--Shortest Section, Transfer Stations (aka where 2 lines connect (not including CR))-->
+<h1 class="silverline">Transfer Stations</h1>
+    
+<div class="redline">
+<div class="green">
+<h2>Park Street</h2>
+<p>MBTA Red Line, Green Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="redline">
+<div class="orange">
+<div class="silver">
+<h2>Downtown Crossing</h2>
+<p>MBTA Red Line, Orange Line, Silver Line, Bus</p>
+<img src="" width="50%">
+</div></div></div>
+    
+<div class="redline">
+<div class="silver">
+<h2>South Station</h2>
+<p>MBTA Red Line, Silver Line, Commuteer Rail, Amtrak, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="redline">
+<div class="green">
+<h2>Park Street</h2>
+<p>MBTA Red Line, Mattapan Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="redline">
+<h2>Ashmont</h2>
+<p>MBTA Red Line, Mattapan Line, Bus</p>
+<img src="" width="50%">
+</div>
+    
+<div class="orangeline">
+<div class="green">
+<h2>North Station</h2>
+<p>MBTA Orange Line, Green Line, Commuter Rail, Amtrak, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="orangeline">
+<div class="green">
+<h2>Haymarket</h2>
+<p>MBTA Orange Line, Green Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="orangeline">
+<div class="blue">
+<h2>State</h2>
+<p>MBTA Orange Line, Blue Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="orangeline">
+<div class="silver">
+<h2>Chinatown</h2>
+<p>MBTA Orange Line, Silver Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="orangeline">
+<div class="silver">
+<h2>Tufts Medical Center</h2>
+<p>MBTA Orange Line, Silver Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="greenline">
+<div class="blue">
+<h2>Government Center</h2>
+<p>MBTA Green line, Blue Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+    
+<div class="blueline">
+<div class="silver">
+<h2>Airport</h2>
+<p>MBTA Blue Line, Silver Line, Bus</p>
+<img src="" width="50%">
+</div></div>
+   
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
